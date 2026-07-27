@@ -22,7 +22,7 @@ export function ChatInput({ onSubmit, isLoading }: ChatInputProps) {
   return (
     <div className="border-t border-border bg-background/80 backdrop-blur-sm p-4">
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-3">
-        <p className="text-xs text-muted-foreground">Model: GPT-OSS 120B (Free)</p>
+        <p className="text-xs text-muted-foreground">Model: OpenAI gpt-oss-20b (Free)</p>
 
         <div className="flex gap-2">
           <Input

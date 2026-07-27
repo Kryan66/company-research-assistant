@@ -5,7 +5,7 @@ import type { SerperSearchResult } from '../types/index.js'
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
 /** Primary free model — only model used unless rate-limited */
-const PRIMARY_MODEL = 'openai/gpt-oss-120b:free'
+const PRIMARY_MODEL = 'openai/gpt-oss-20b:free'
 /** Fallback free model when primary returns 429 */
 const BACKUP_MODEL = 'openrouter/free'
 
